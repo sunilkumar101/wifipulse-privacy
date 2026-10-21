@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WiFi Pulse 6E/7 – Privacy Policy</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; background: #0B0F19; color: #DFE2F1; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.8rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; color: #06B6D4; margin: 32px 0 8px; }
+  p, li { color: #C7CCDA; }
+  .muted { color: #94A3B8; font-size: .9rem; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: .95rem; }
+  th, td { text-align: left; padding: 8px; border-bottom: 1px solid #1E293B; vertical-align: top; }
+  th { color: #DFE2F1; }
+  a { color: #22D3EE; }
+  code { font-family: ui-monospace, Consolas, monospace; color: #A78BFA; }
+</style>
+</head>
+<body>
+<main>
+<h1>WiFi Pulse 6E/7 – Privacy Policy</h1>
+<p class="muted">Effective 21 October 2026 · App ID <code>com.wifipulse.analyzer</code></p>
+
+<p>WiFi Pulse 6E/7 ("the app") is a Wi-Fi analyzer. It measures your Wi-Fi connection, nearby networks
+and devices on your own network, and shows the results on your phone. <strong>We (the developer) do not run
+any servers and do not collect, receive or sell your personal data.</strong> The only third parties that
+receive data are Google's advertising and payment services, described below.</p>
+
+<h2>1. Data that stays on your phone</h2>
+<p>Everything the app measures is processed and stored only on your device, in the app's private storage:</p>
+<ul>
+  <li>Your Wi-Fi connection details (network name, BSSID, signal strength, channel, link speed, IP and gateway address).</li>
+  <li>Nearby Wi-Fi networks from Android's Wi-Fi scan (names, BSSIDs, signal, channel, security type).</li>
+  <li>Devices found on your own local network (IP address, name they announce, device type) and any names or "trusted" marks you add.</li>
+  <li>Heatmap surveys: floor plans you draw, signal samples you record, and a floor-plan photo if you choose to import one.</li>
+  <li>Speed and ping test results while the screen is open.</li>
+</ul>
+<p>This data is never uploaded by the app. It is deleted when you clear the app's data or uninstall it.
+Files you export (CSV, JSON, PDF) are saved only where you choose, and shared only if you share them.</p>
+
+<h2>2. Permissions and why they are needed</h2>
+<table>
+  <tr><th>Permission</th><th>Why</th></tr>
+  <tr><td>Location (precise)</td><td>Android only gives Wi-Fi scan results and your network's name to apps that hold location permission. The app does <strong>not</strong> read GPS, does not track where you are and does not store or share your location.</td></tr>
+  <tr><td>Nearby Wi-Fi devices (Android 13+)</td><td>Needed to scan Wi-Fi networks. Declared "never for location".</td></tr>
+  <tr><td>Wi-Fi state / network state / change Wi-Fi state / Wi-Fi multicast</td><td>Read your connection, start scans, and find devices on your network (mDNS / UPnP).</td></tr>
+  <tr><td>Camera (optional)</td><td>Only for the AR Camera Walk heatmap. The camera image is shown live and is never saved or sent anywhere.</td></tr>
+  <tr><td>Physical activity (optional)</td><td>Counts your steps during a walking heatmap survey so your position on the floor plan moves with you. Step data is not stored beyond the survey points.</td></tr>
+  <tr><td>Internet</td><td>Speed and ping tests, your router's admin page, and ads.</td></tr>
+</table>
+<p>The app shows an explanation screen before Android asks for location permission.</p>
+
+<h2>3. Network tests</h2>
+<p>When you start a test, the app connects to these public services. They see your public IP address,
+as with any internet connection, but no other data from the app is sent:</p>
+<ul>
+  <li>Speed test: <code>speed.cloudflare.com</code> (Cloudflare).</li>
+  <li>Gamer ping: Amazon Web Services regional endpoints (<code>dynamodb.&lt;region&gt;.amazonaws.com</code>), <code>www.youtube.com</code>, <code>www.twitch.tv</code>.</li>
+  <li>DNS test: Cloudflare (1.1.1.1), Google (8.8.8.8) and Quad9 (9.9.9.9) DNS resolvers.</li>
+</ul>
+<p>Device discovery and the router admin page only talk to devices on your own local network.</p>
+
+<h2>4. Ads (Google AdMob)</h2>
+<p>The free version shows ads from Google AdMob. Google may collect and use your device's advertising ID,
+IP address, device and app information and ad interactions to show and measure ads, and for fraud prevention.
+In the EEA, UK and Switzerland the app asks for your consent first using Google's consent form, and you can
+change your choice at any time under <em>Settings → Ad privacy choices</em>. You can also reset or delete your
+advertising ID in Android settings. See <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>
+and <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
+<p>Buying WiFi Pulse Pro removes all ads.</p>
+
+<h2>5. Purchases (Google Play Billing)</h2>
+<p>The one-time WiFi Pulse Pro purchase is handled entirely by Google Play. We never see your payment details.
+The app only receives confirmation from Google Play that Pro was bought, so it can turn ads off.</p>
+
+<h2>6. Children</h2>
+<p>The app is a technical tool for a general audience and is not directed at children under 13.</p>
+
+<h2>7. Security</h2>
+<p>Data stays in Android's private app storage, which other apps cannot read. The router admin page is opened
+inside the app only for your own gateway address; the app never accepts invalid HTTPS certificates silently.</p>
+
+<h2>8. Changes</h2>
+<p>If this policy changes, the new version will be posted at this address with a new effective date.</p>
+
+<h2>9. Contact</h2>
+<p>Questions about privacy: <a href="mailto:engsunilkumarkhatri@gmail.com">engsunilkumarkhatri@gmail.com</a> · Developer: <strong>Sunil Kumar</strong></p>
+</main>
+</body>
+</html>
